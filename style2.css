@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&family=Metal+Mania&family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Josefin+Sans:ital,wght@1,700&family=Satisfy&display=swap');
+
+html{
+    background-image: linear-gradient(999deg,rgb(160, 235, 221, 0.682),rgb(0, 128, 87));
+   
+}
+
+header{
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo{
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color:white;
+}
+.imagem1{
+    height: 400px;
+    display: flex;
+    margin-left: 26%;
+    border: 4px solid white;
+}
+h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+}
+.paragrafo{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type:none; /*remove as bolinhas das listas*/
+    padding: 0; /*tira o espaçamento da lista*/
+    background-color: rgb(52, 93, 93);
+}
+
+.menu ul li{
+    display: inline; /*deixa todos os topicos em uma linha*/
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none; /*tira a barrinha de baixo das palavras*/
+    padding: 20px; /*separa as palavras por um espaçamento de 10px*/
+    display: inline-block;/*deixa a cor de fundo mais grossa*/
+    transition-duration: 1s;
+}
+.menu ul li a:hover{
+    background-color: rgb(16, 159, 123);
+}
+img{
+    height: 500px;
+    margin-left: 21%;
+    border: solid white;
+}
+.reajuste{
+    width: 886px;
+}
+.reajuste2{
+    width: 887px;
+}
+.reajuste3{
+    width: 887px;
+}
+.reajuste4{
+    width: 887px;
+}
+.reajuste5{
+    width: 887px;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+}
